@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Statistics } from './Statistics';
 
 export const StatisticsSection = styled.section`
   max-width: 400px;
