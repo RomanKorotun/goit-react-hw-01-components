@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const ProfileContainer = styled.div`
-  max-width: 300px;
+  max-width: 400px;
   background-color: white;
   border-radius: 5px;
-  /* padding-top: 40px; */
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 `;
 
 export const Description = styled.div`
@@ -43,7 +43,6 @@ export const UserTag = styled.p`
 export const UserLocation = styled.p`
   text-align: center;
   font-size: 20px;
-  /* margin-bottom: 20px; */
   color: slategray;
 `;
 
