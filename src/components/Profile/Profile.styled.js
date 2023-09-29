@@ -4,15 +4,17 @@ export const ProfileContainer = styled.div`
   max-width: 300px;
   background-color: white;
   border-radius: 5px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   margin-left: auto;
   margin-right: auto;
 `;
 
 export const Description = styled.div`
-  width: 300px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
 `;
 
 export const UserAvatar = styled.img`
@@ -41,7 +43,7 @@ export const UserTag = styled.p`
 export const UserLocation = styled.p`
   text-align: center;
   font-size: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   color: slategray;
 `;
 
@@ -56,7 +58,8 @@ export const ProfileListItem = styled.li`
   flex-direction: column;
   gap: 5px;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: silver;
   flex-basis: calc(100% / 3);
   border: 1px solid slategray;
