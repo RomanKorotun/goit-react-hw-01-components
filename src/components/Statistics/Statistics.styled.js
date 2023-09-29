@@ -29,7 +29,7 @@ export const Item = styled.li`
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  flex-basis: calc(100% / ${props => props.data.length});
+  flex-basis: calc(100% / ${({ length }) => length});
 `;
 
 export const Label = styled.span`
