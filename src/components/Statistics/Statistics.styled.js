@@ -6,7 +6,8 @@ export const StatisticsSection = styled.section`
   margin-right: auto;
   background-color: white;
   padding-top: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  margin-bottom: 20px;
 `;
 
 export const Title = styled.h2`
@@ -28,7 +29,7 @@ export const Item = styled.li`
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  flex-basis: ${props => `calc(100%/ ${props.length} )`};
+  flex-basis: ${props => `calc(100%/ ${props.$length} )`};
 `;
 
 export const Label = styled.span`

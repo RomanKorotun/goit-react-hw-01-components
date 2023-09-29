@@ -15,7 +15,7 @@ export const Statistics = ({ title, stats }) => {
       <StatisticsList>
         {stats.map(({ id, label, percentage }) => (
           <Item
-            length={stats.length}
+            $length={stats.length}
             key={id}
             style={{ backgroundColor: getRandomHexColor() }}
           >
