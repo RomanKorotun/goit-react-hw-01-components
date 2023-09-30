@@ -11,6 +11,7 @@ export const FriendListContainer = styled.ul`
   flex-direction: column;
   gap: 10px;
   padding: 1px;
+  margin-bottom: 20px;
 `;
 
 export const FriendListItem = styled.li`
