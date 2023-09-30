@@ -6,7 +6,6 @@ export const StatisticsSection = styled.section`
   margin-right: auto;
   background-color: white;
   padding-top: 20px;
-  /* border-radius: 5px; */
   margin-bottom: 20px;
 `;
 
