@@ -6,18 +6,14 @@ import {
   Status,
 } from './FriendListItem.styled';
 
-export const FriendListItem = ({ list }) => {
+export const FriendListItem = ({ avatar, name, status }) => {
   return (
-    <>
-      {list.map(({ avatar, name, isOnline, id }) => (
-        <Item key={id}>
-          <Status $status={isOnline} />
-          <AvatarInfo>
-            <Avatar src={avatar} alt="User avatar" />
-            <Name>{name}</Name>
-          </AvatarInfo>
-        </Item>
-      ))}
-    </>
+    <Item>
+      <Status $status={status} />
+      <AvatarInfo>
+        <Avatar src={avatar} alt="User avatar" />
+        <Name>{name}</Name>
+      </AvatarInfo>
+    </Item>
   );
 };
