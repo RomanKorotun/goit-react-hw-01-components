@@ -11,7 +11,7 @@ import getRandomHexColor from './fn-random-color';
 export const Statistics = ({ title, stats }) => {
   return (
     <StatisticsSection>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
       <StatisticsList>
         {stats.map(({ id, label, percentage }) => (
           <Item
