@@ -1,6 +1,7 @@
-@import-normalize;
+import { createGlobalStyle } from 'styled-components';
+import 'modern-normalize';
 
-h1,
+export const GlobalStyle = createGlobalStyle`h1,
 h2,
 h3,
 h4,
@@ -25,3 +26,4 @@ body {
   padding: 30px;
   margin: 0;
 }
+`;
